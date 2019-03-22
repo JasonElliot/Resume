@@ -1,0 +1,104 @@
+.navbar-custom {
+    background-color:#44c7f4;
+    color: black;
+    border-radius:0;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+}
+.nav-text{
+  color:black;
+  font-weight: bold;
+}
+.nav-text:hover{
+  color: white;
+  background: rgb(68, 199, 244) !important;
+}
+.center{
+  text-align: center;
+}
+.jumbotron{
+  color:  skyblue;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  padding-top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fixed-bottom{
+  padding-top: 0px;
+  margin-bottom: 0px !important;
+}
+
+.footer{
+  height: 300px;
+  width: 100%;
+  position: relative;
+  font-weight: 100;
+  color: black;
+}
+.footer-title{
+  color: black;
+  font-size: 30px;
+
+}
+
+body{
+  // background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/56/54/S4LwVn.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.logo{
+
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  display: block;
+
+}
+.tinted {
+  margin-bottom: 0px;
+
+  opacity: 0.9;
+}
+.title{
+
+
+}
+img {
+  border: 1px solid #fff;
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px;
+  width: 150px;
+}
+.banner{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 6em;
+}
+.banner span{
+  color: #44c7f4;
+  letter-spacing: 4px;
+  font-size: 1.5em;
+}
+.banner h2{
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+  h3.w3l_head {
+    text-align: center;
+    color: #111;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
