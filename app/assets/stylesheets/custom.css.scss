@@ -20,6 +20,7 @@
 .nav-text:hover {
   color: white;
   background: rgb(68, 199, 244) !important;
+
 }
 .nav-text:hover::after{
   content:' ]';
@@ -97,11 +98,26 @@ img {
   border-radius: 4px;  /* Rounded border */
   padding: 5px;
   width: 150px;
+
 }
 .banner{
   margin: 0 auto;
   text-align: center;
   padding-top: 6em;
+}
+.banner img{
+  border: 7px solid #333;
+  width: 30%;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.img-responsive{
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 .banner span{
   color: #44c7f4;
@@ -110,7 +126,7 @@ img {
 }
 .banner h2{
   font-size: 3em;
-  letter-spacing: 3px;
+  letter-spacing: -0.9px;
 }
 
   h3.w3l_head {
@@ -126,7 +142,7 @@ img {
 
 }
 #home{
-  min-height: 639px;
+
 
 }
 .w3l_para{
@@ -150,11 +166,17 @@ img {
 .w3ls-agile-center-info{
   margin-bottom: 0px;
   padding: 1em 0;
-
+  width: 812px;
   border-bottom: 1px dashed #44c7f4;
 }
-.w3ls-agile-center h4{
-  display: block;
+.w3ls-agile-center-info ul{
+  list-style-type:none;
+  display: inline-block;
+  width: 812px;
+
+}
+.hl4{
+  display: inline-block;
   font-size: 1.6em;
   margin: 0;
   text-transform: uppercase;
@@ -163,13 +185,100 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.h15{
+  padding-left: 50px;
+  display: inline-block;
+  margin:0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
 .profile{
-
+  width:100%;
+  height: 100%;
+}
+.container{
+  margin: 0px;
+}
+.resume-w3l{
+  background-color: black;
+  padding-bottom: 100px;
+}
+.resume-w3l h3{
+  text-align: center;
+  color: #44c7f4;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  // text-shadow: 2px 2px black;
 }
 .education-w3l{
   padding: 3em 3em;
   color: blue;
 }
+.education-grids{
+  margin-top: 2em;
+  box-sizing: border-box;
+  display: block;
+  margin:0;
+}
+.education-w3l{
+
+}
+.education-year{
+  float: left;
+  width: 30%;
+  border-left: 5px solid #eb5424;
+  padding-left: 14px;
+}
+.education-agile-w3l-info h4{
+  text-transform: uppercase;
+  font-size: 1.4em;
+  color: #333;
+  letter-spacing: 2px;
+  padding: 0 4em;
+  margin-top: 2em;
+
+}
+.education-agile-w3l-info p{
+  font-size: 0.9em;
+  line-height: 1.9em;
+  color: #777;
+  margin-top: 10px;
+
+}
+.clearfix::after{
+  content: "";
+  clear:both;
+  display:table;
+  box-sizing: border-box;
+  border-bottom: 2px solid #333;
+
+}
 .skill{
-  min-height: 682px;
+  background-color: black;
+  padding-bottom: 86px;
+  }
+.skill h3{
+  text-align: center;
+  color: #44c7f4;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.skill-agile{
+  padding: 0 4em;
+  margin-top: 2em;
+}
+.skill-agile p{
+  margin: 0;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+
+}
+.blabel{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  padding-top: 10px;
+
 }
