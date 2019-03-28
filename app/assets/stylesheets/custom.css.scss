@@ -30,24 +30,20 @@
 }
 }
 .nav-text{
-  font-size: 17px;
 
-  font-weight: 500;
   letter-spacing: 2px;
-  height: 50px;
+  height: 55px;
   color: black;
 
 }
 .nav-text:hover{
   font-weight: 500;
-  letter-spacing: 2px;
-  height: 50px;
   border-style: inset;
   border-color: #808080;
-  font-size: 17px;
   color: black;
-  border-radius: 30px;
+  border-radius: 5px;
   transform: unset;
+  background-color: none;
 }
 
 .center{
