@@ -13,7 +13,7 @@ def projects
 
 end
 
-def contact
+def experience
 
 end
 

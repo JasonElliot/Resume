@@ -5,5 +5,5 @@ root 'resume#home'
 get 'profile', to: 'resume#profile'
 get 'projects', to: 'resume#projects'
 get 'resumae', to: 'resume#resumae'
-get 'contact', to: 'resume#contact'
+get 'experience', to: 'resume#experience'
 end
