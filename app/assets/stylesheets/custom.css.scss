@@ -34,16 +34,29 @@
   letter-spacing: 2px;
   height: 55px;
   color: black;
-
+  border: 2px solid #fff;
+  font-weight: 500;
 }
 .nav-text:hover{
-  font-weight: 500;
+
   border-style: inset;
-  border-color: #808080;
+  border: 2px solid #808080 !important;
   color: black;
   border-radius: 5px;
   transform: unset;
   background-color: none;
+}
+
+.navbar-text-padding{
+  padding-top: 14px;
+}
+
+.navbar-container-full{
+  height: 100px !important;
+}
+
+.navbar-padding{
+  padding: 2px 15px !important;
 }
 
 .center{
@@ -232,14 +245,6 @@ img {
 .education-w3l {
     padding: 6em 4em;
 }}
-@media (min-width: 992px){
-.col-md-6 {
-    width: 50%;
-}}
-@media (min-width: 992px){
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-}}
 h3.w3l_head {
     text-align: center;
     color: #333;
@@ -372,6 +377,19 @@ h3.w3l_head {
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
+}
+
+.divider1 {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+}
+
+.heading-project{
+  color: black !important;
+  text-decoration: none !important;
 }
 
 @media (min-width: 970px){
