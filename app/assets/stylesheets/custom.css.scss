@@ -9,7 +9,13 @@
     display: inline-block;
     float: none;
 }
-
+.burger-color{
+  background-color: black !important;
+}
+.nav-toggle-padding{
+  width: 50px !important;
+  padding: 26px 10px !important;
+}
 .navbar .navbar-collapse {
     text-align: right;
 }
@@ -21,14 +27,7 @@
     overflow: visible !important;
 }
 }
-@media (min-width: 768px) {
-.navbar-collapse {
-    width: auto;
-    border-top: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-}
+
 .nav-text{
 
   letter-spacing: 2px;
@@ -40,11 +39,10 @@
 .nav-text:hover{
 
   border-style: inset;
-  border: 2px solid #808080 !important;
+  border: 2px solid #333 !important;
   color: black;
   border-radius: 5px;
   transform: unset;
-  background-color: none;
 }
 
 .navbar-text-padding{
@@ -202,7 +200,6 @@ img {
   margin: 0;
   text-transform: uppercase;
   float: left;
-  letter-spacing: 1px;
   margin-top: 1px;
   margin-bottom: 10px;
 }
@@ -217,7 +214,9 @@ img {
 }
 .mail{
   color: #00008b;
-
+  word-wrap: break-word;
+  width: 100%;
+  text-align: left;
 }
 @media (min-width: 768px){
 .container {
@@ -268,12 +267,10 @@ h3.w3l_head {
     font-weight: bold;
     text-transform: uppercase;
     color: #333;
-    letter-spacing: 2px;
 }
 .education-agile-w3l-year h6 {
     color: #44c7f4;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-style: italic;
     font-size: 1em;
 }
@@ -397,4 +394,21 @@ h3.w3l_head {
   display: flex;
   flex-wrap: wrap;
 }
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+      width: auto;
+      border-top: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+  }
+  .navbar-dropdown-center{
+    text-align: center !important;
+    background-color: #fff;
+    margin-top: 5px !important;
+  }
+  .nav-text {
+    height: 45px;
+  }
 }

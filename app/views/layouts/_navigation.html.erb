@@ -2,22 +2,23 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle nav-toggle-padding collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar burger-color"></span>
+        <span class="icon-bar burger-color"></span>
+        <span class="icon-bar burger-color"></span>
       </button>
       <div class="navbar-brand navbar-padding collapsed" >
         <%= link_to root_path do %>
-          <%= image_tag "https://static1.squarespace.com/static/5885135fd2b857134e3f6606/t/589f37833a0411d59c5c0882/1486829451412/jelogo_social.png?format=1000w", class: "logo tinted" %>
+          <%= image_tag "https://s3.ap-south-1.amazonaws.com/user-source/jason/jelogo_social.png", class: "logo tinted" %>
+          <!-- <p>https://static1.squarespace.com/static/5885135fd2b857134e3f6606/t/589f37833a0411d59c5c0882/1486829451412/jelogo_social.png?format=1000w<p> -->
         <% end %>
 
       </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse navbar-dropdown-center" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-text-padding">
         <li><%= link_to 'PROFILE', profile_path , class:"nav-text" %></li>
         <li><%= link_to 'PROJECTS', projects_path,class:"nav-text" %></li>
