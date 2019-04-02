@@ -18,7 +18,6 @@
 }
 .navbar .navbar-collapse {
     text-align: right;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2) !important;
 }
 @media (min-width: 768px){
 .navbar-collapse.collapse {
@@ -46,6 +45,10 @@
   transform: unset;
 }
 
+.download_resume{
+  text-align: center;
+}
+
 .navbar-text-padding{
   padding-top: 14px;
 }
@@ -54,6 +57,10 @@
   height: 100px !important;
 
 
+}
+
+.padding-0{
+  padding: 0px !important;
 }
 
 .navbar-padding{
@@ -121,6 +128,11 @@ img {
   width: 150px;
 
 }
+
+.banner-profile{
+  padding-top: 5em !important;
+}
+
 .banner{
   margin: 0 auto;
   text-align: center;
